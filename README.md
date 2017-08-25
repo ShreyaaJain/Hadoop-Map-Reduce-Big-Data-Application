@@ -63,17 +63,33 @@ Details of the month for both subscribers and customers
 -	Array was created to pass on the 4 unique key.
 -	If there was a match the count was incremented by one for that particular key
 
-# Caps
-## loawe
-### ghjjhg
+![alt tag](https://github.com/ShreyaaJain/Hadoop-Map-Reduce-Big-Data-Application/blob/master/Graphs/Analysis5.png)
 
+![alt tag](https://github.com/ShreyaaJain/Hadoop-Map-Reduce-Big-Data-Application/blob/master/Graphs/Analysis5.1.png)
 
+### Conclusion: 
+From the output it can be seen that San Francisco has 37 stations.
 
+## Analysis 6: Who are the top 10 bikers?
 
+-	This analysis was done using the map reduce Top N framework.
+-	An empty tree-map was created and the data though every mapper calculated the top 10 to pass the output to the reducer.
+-	Reducer then calculated the top 10 from the all the mapper dataset.
+-	Cleanup was used to sort the data in descending order.
+-	The bike duration is the value to be sorted.
 
+![alt tag](https://github.com/ShreyaaJain/Hadoop-Map-Reduce-Big-Data-Application/blob/master/Graphs/Analysis6.png)
 
+### Conclusion: 
+This analysis gives us the top 10 users who use the bike share the most.
 
+## Analysis 7: How many bikers do we get in a year?
 
+-	This analysis was done using the map reduce distinct framework.
+-	Bike number was the key for which unique output is generated.
 
+![alt tag](https://github.com/ShreyaaJain/Hadoop-Map-Reduce-Big-Data-Application/blob/master/Graphs/Analysis7.png)
 
+### Conclusion: 
+A list of unique number of bikes were created which show how many riders did the bay area have in the given year
 
