@@ -55,3 +55,25 @@ The analysis shows that the office peak hours are 8am and 5pm for subscribers.
 ### Conclusion: 
 Details of the month for both subscribers and customers
 
+
+## Analysis 5: How many bike stations are there in each region?
+
+-	This analysis was done using Counters where the input data was the station data.
+-	Done only on a mapper side
+-	Array was created to pass on the 4 unique key.
+-	If there was a match the count was incremented by one for that particular key
+
+# Caps
+## loawe
+### ghjjhg
+
+
+
+
+
+
+
+
+
+
+
